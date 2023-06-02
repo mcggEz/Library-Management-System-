@@ -1,0 +1,112 @@
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #282e29;
+}
+footer .content {
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+footer .content p,
+a {
+  color: #fff;
+}
+footer .content .box {
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .content .question {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+footer .content p {
+  text-align: justify;
+}
+footer .content .lower .topic {
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i {
+  padding-right: 16px;
+}
+footer .content .middle {
+  padding-left: 80px;
+}
+footer .content .middle a {
+  line-height: 32px;
+}
+footer a:hover {
+  color: #7aaf8f;
+}
+
+footer .content .media-icons a {
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+
+/* footer */
+footer .bottom {
+  /* text-align: center; */
+  color: #d9d9d9;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  /* display: flex; */
+}
+footer p {
+  text-align: center;
+}
+
+.logo_2 {
+  height: 90px;
+  width: auto;
+  margin-top: 50px;
+}
+
+/* footer logo */
+@media (max-width: 1100px) {
+  footer .content .middle {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 950px) {
+  footer .content .box {
+    width: 50%;
+  }
+  .content .right {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 560px) {
+  footer {
+    position: relative;
+  }
+  footer .content .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle {
+    padding-left: 0;
+  }
+}

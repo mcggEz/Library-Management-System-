@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Hero Section*/
+
+.hero-section {
+  position: relative;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 6em 3em;
+  margin-top: 120px;
+  height: 85vh;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.text-container {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+  z-index: 2;
+}
+
+.text-container p {
+  text-align: left;
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 36rem;
+  font-weight: 600;
+}
+
+.text-container h1 {
+  text-align: left;
+  width: 540px;
+  margin-bottom: 1rem;
+  font-size: 3.6rem;
+  width: 100%;
+  max-width: 36rem;
+  line-height: 1;
+}
+
+/* Add these lines for the slide-up animation */
+@keyframes slide-up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.text-container.slide-up {
+  animation-name: slide-up;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+@media screen and (max-width: 1210.5px) {
+  .hero-section {
+    margin-top: 90px;
+  }
+  .hero-section h1 {
+    font-size: 32px;
+    line-height: 1;
+  }
+  .hero-section p {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+/* separator_1 */
+.separator_1 {
+  width: 100%;
+  height: 50px;
+  background-color: #4e6a4e;
+}
+/*History Section*/
+
+.history-section {
+  display: flex;
+  height: 85vh;
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.history_image_container {
+  flex: 0 0 65%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.library_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: 85vh;
+}
+
+.history_text_ctn {
+  flex: 0 0 35%;
+  padding: 80px;
+}
+.history_text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .history-section {
+    flex-direction: column;
+  }
+
+  .history_image_container {
+    flex: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .history_text_ctn {
+    flex: 100%;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+/*Location Section*/
+.location-section {
+  height: 85vh;
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4rem 4rem;
+  height: 85vh;
+  display: flex;
+}
+.location-section h1 {
+  text-align: center;
+}
+
+/*Services Section*/
+
+.services-section {
+  padding: 2rem 4rem;
+}
+
+.services-section h2 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.services-section p {
+  text-align: center;
+}
+
+/* resources_section */
+
+.resources_section {
+  margin-top: 120px;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 30px;
+  padding: 80px;
+  min-height: 85vh;
+}
+.resources-text {
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+.search_resources {
+  padding: 20px;
+}
+
+/* -----------/Resources Section ----------*/
+
+/* .guidelines */
+.guidelines {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #777;
+  margin-top: 120px;
+  padding: 100px;
+}
+
+/* === Custom Scroll Bar CSS === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #507853;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #70936b;
+}
+
+body.dark::-webkit-scrollbar-thumb:hover,
+body.dark .activity-data::-webkit-scrollbar-thumb:hover {
+  background: #3a3b3c;
+}
+
+/*Services/Announcements Sections*/
+.room_service-section {
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4rem 4rem;
+  height: 85vh;
+  margin-top: 120px;
+}
+.borrowing-section {
+  background-color: #c3dcc4;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4rem 4rem;
+  height: 85vh;
+}
+.library-service-section {
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4rem 4rem;
+  /* height: 85vh; */
+}
+
+/* Resources/Books Responsive grid system */
+.sections-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 100px;
+}
+
+/*activities sections*/
+.reservation {
+  background-color: #0d0c22;
+}
+/* 
+announcemnts sections  */
+.announcements_section {
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4rem 4rem;
+  height: 85vh;
+  margin-top: 120px;
+}
+.announcements_body_section {
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4rem 4rem;
+  min-height: 85vh;
+  margin-top: 120px;
+}
+.back_button a {
+  text-align: left;
+  color: #0d0c22;
+}
+
+.partition_2 {
+  height: 85vh;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px;
+  padding-top: 150px;
+  background-color: #f2f2f2;
+}
+
+.partition_3 {
+  height: 85vh;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px;
+  padding-top: 150px;
+  background-color: #a5c1a8;
+}
+
+.partition_4 {
+  height: 85vh;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px;
+  padding-top: 100px;
+  background-color: #a8c9a6;
+}
+
+.partition_5 {
+  height: 85vh;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px;
+  padding-top: 100px;
+  background-color: #94af92;
+}
+
+.partition_1 {
+  height: 85vh;
+  margin-top: 120px;
+  font-size: 20px;
+  text-align: Center;
+  padding: 100px;
+  padding-top: 150px;
+  justify-content: center;
+}
+.partition_7 {
+  min-height: 85vh;
+  margin-top: 120px;
+  padding: 100px;
+}
+
+.navigation-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 0;
+  background-color: rgb(151, 205, 161);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+
+.navigation-button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(133, 17%, 57%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(121, 151, 127) 0px 7px 29px 0px;
+}
