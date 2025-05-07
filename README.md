@@ -1,4 +1,4 @@
-📚 Library Management System
+📚 Sacramento Public Library Management System
 
 This is the first software application I developed, created independently as a requirement for our Software Design course. It marked my entry into full-stack development, where I took charge of everything—from planning and UI/UX design to backend implementation.
 
