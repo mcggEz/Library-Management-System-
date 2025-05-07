@@ -6,14 +6,14 @@ The system is a dynamic web platform that modernizes traditional library operati
 ✨ Features
 For Users:
 
-🔍 Search for books quickly and efficiently
+-Search for books quickly and efficiently
 
-💬 Submit feedback to help improve library services
+-Submit feedback to help improve library services
 
-📅 Reserve books and study rooms with ease
+-Reserve books and study rooms with ease
 
 For Staff:
 
-📊 Track user activity and performance
+-Track user activity and performance
 
-📈 Make data-driven decisions to optimize operations
+-Make data-driven decisions to optimize operations
