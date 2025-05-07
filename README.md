@@ -11,6 +11,6 @@ The system is a **dynamic web platform** that modernizes traditional library ope
 -  **Submit feedback** to help improve library services  
 -  **Reserve books and study rooms** with ease  
 
-### 🛠For Staff:
+### For Staff:
 -  **Track user activity and performance**  
 -  **Make data-driven decisions** to optimize operations**
