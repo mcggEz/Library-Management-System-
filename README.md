@@ -1,16 +1,19 @@
-# Library-Management-System
-This is the first software application I developed, created independently as a requirement for our Software Design course. This project marked my entry into full-stack development, where I handled everything from the planning and design to the final implementation.
+📚 Library Management System
+This is the first software application I developed, created independently as a requirement for our Software Design course. It marked my entry into full-stack development, where I took charge of everything—from planning and UI/UX design to backend implementation.
 
-The system is a dynamic web platform that modernizes traditional library operations. It allows users to:
+The system is a dynamic web platform that modernizes traditional library operations.
 
-Search for books quickly and efficiently
+✨ Features
+For Users:
 
-Submit feedback to help improve library services
+🔍 Search for books quickly and efficiently
 
-Reserve books and study rooms with ease
+💬 Submit feedback to help improve library services
 
-For library staff, it offers tools to:
+📅 Reserve books and study rooms with ease
 
-Track user activity and performance
+For Staff:
 
-Make data-driven decisions to optimize operations
+📊 Track user activity and performance
+
+📈 Make data-driven decisions to optimize operations
