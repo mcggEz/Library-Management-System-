@@ -6,6 +6,20 @@ This is my first software application, where I served as the software developer 
 
 The Sacramento Public Library Management System is a web platform that modernizes traditional library operations, making it easier for both users and staff to manage library resources efficiently.
 
+##  Built With
+- **HTML5** - Structure and content
+- **CSS3** - Styling and responsive design
+- **JavaScript** - Interactive features and dynamic content
+- **PHP** - Backend logic and database management
+
+##  Getting Started
+
+### Prerequisites
+- Web server with PHP support (XAMPP)
+- Web browser
+- MySQL database
+
+
 ##  Features
 
 ### For Library Users 
@@ -21,18 +35,6 @@ The Sacramento Public Library Management System is a web platform that modernize
 - **Performance Analytics**: Access to usage statistics and reports
 - **Data-Driven Insights**: Make informed decisions based on user behavior and library metrics
 
-##  Built With
-- **HTML5** - Structure and content
-- **CSS3** - Styling and responsive design
-- **JavaScript** - Interactive features and dynamic content
-- **PHP** - Backend logic and database management
-
-##  Getting Started
-
-### Prerequisites
-- Web server with PHP support (XAMPP)
-- Web browser
-- MySQL database
 
 
 ##  Screenshots
