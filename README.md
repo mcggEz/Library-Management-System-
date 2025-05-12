@@ -11,12 +11,7 @@ The Sacramento Public Library Management System is a web platform that modernize
 - **CSS3** - Styling and responsive design
 - **JavaScript** - Interactive features and dynamic content
 - **PHP** - Backend logic and database management
-
-##  Getting Started
-
-### Prerequisites
 - Web server with PHP support (XAMPP)
-- Web browser
 - MySQL database
 
 
